@@ -19,6 +19,8 @@ To get around the compression, you can use a [QuickBMS script](https://aluigi.al
 Once you've gotten around the compression / extracted all of the `.lua` (technically `.luac` since its compiled lua) from the game, you now get to decompile all of the compiled source!
 In this case, I used [Unluac](https://sourceforge.net/projects/unluac/), tbh I've got no idea on how it works other than some weird techno magic but y'know it works. Then I made a Powershell script in `Tools/DecompileLua.ps1` (it goes in a dir right above where your extracted assets are btw)
 
-### Modding?
-Quite honestly I've got no real idea whether or not this could even compile (and kinda don't care to mess with that right now because euuuugh)...
+For the `Cache.DLC` updates, I imagine that it just overwrites the original file, and so I've extracted those and just thrown the modified decompiled code into `/src_DLC`
+
+### ~~Modding~~
+Quite honestly I very much doubt this could even recompile (and kinda don't care to mess with that right now because euuuugh)...
 In theory if it could compile, you could make something to redo the compression (probably best to just pick `lzf` throughout the `.cache`, I bet D2 could handle it) and reconstruct the `.cache` file, and then make something to reconstruct the respective `.toc` files
