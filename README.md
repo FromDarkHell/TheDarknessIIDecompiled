@@ -24,3 +24,6 @@ For the `Cache.DLC` updates, I imagine that it just overwrites the original file
 ### ~~Modding~~
 Quite honestly I very much doubt this could even recompile (and kinda don't care to mess with that right now because euuuugh)...
 In theory if it could compile, you could make something to redo the compression (probably best to just pick `lzf` throughout the `.cache`, I bet D2 could handle it) and reconstruct the `.cache` file, and then make something to reconstruct the respective `.toc` files
+
+### Other
+If you want other info about this game that isn't just staring at the source code, check out the "write-up" I did [on my Github Pages](https://fromdarkhell.github.io/Darkness/)
