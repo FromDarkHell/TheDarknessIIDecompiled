@@ -6,10 +6,10 @@ Decompiled Lua source code for the 2012 game, The Darkness II
 
 This game (like other [Evolution engine](https://en.wikipedia.org/wiki/Digital_Extremes#Technology) games) stores its files in gigantic files of two types:
 1. Gigantic `.cache` files storing all of the assets based off of that type like `Script`, `Texture`
-	- These can be broken down further into `H`,`B``F` where:
-		- ‘H’ caches contain file headers
-		- ‘B’ caches contain the corresponding binary files (except for sounds, and maybe textures)
-		- ‘F’ caches contain full sound files and textures
+	- These can be broken down further into `H`, `B`, `F` where:
+		- 'H' caches contain file headers
+		- 'B' caches contain the corresponding binary files (except for sounds, and maybe textures)
+		- 'F' caches contain full sound files and textures
 2. `.toc` which is used to denote the `offset`, `name`, and `size` (among other data) about the sub files in the respective `.cache` files.
 Furthermore, these `.cache` sub-files are compressed using both `oodle` and `lzf` compression, of which [oodle](http://www.radgametools.com/oodlecompressors.htm) compression is proprietary.
 To get around the compression, you can use a [QuickBMS script](https://aluigi.altervista.org/bms/darkness2.bms) meant for use with [QuickBMS](https://aluigi.altervista.org/quickbms.htm)
