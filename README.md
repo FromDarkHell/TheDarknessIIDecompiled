@@ -1,6 +1,6 @@
 ## The Darkness 2 Decompiled
 
-Decompiled Lua source code for the 2012 game, The Darkness II
+Decompiled Lua / ActionScript 2.0 source code for the 2012 game, The Darkness II
 
 ### Extraction
 

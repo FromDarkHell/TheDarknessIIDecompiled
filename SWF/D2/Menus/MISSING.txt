@@ -1,0 +1,3 @@
+Files\D2\Menus\DialogPopUp.swf
+Files\D2\Menus\IntroCredits.swf
+Files\D2\Menus\NarrativeMPPopUp.swf
